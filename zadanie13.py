@@ -51,5 +51,5 @@ for i in range(0, len(przefiltrowany)):
             p = l
         elif n > 10:
             kod.append(l) #dodaje powtórzoną cyfrę po przerwie > 10 sygnałów
-        n = 0 #zeruje licznik przy amplitudzie > 1
+        n = 0 #zeruje licznik przy amplitudzie > 0,05 
 print (kod)
