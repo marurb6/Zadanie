@@ -43,7 +43,7 @@ kod=[]
 p = 0
 n = 0
 for i in range(0, len(przefiltrowany)):
-    n+=1 # licznik sprawdzający, czy jet prerwa między powtarzającymi się cyframi
+    n+=1 # licznik sprawdzający, czy jest przerwa między powtarzającymi się cyframi
     if przefiltrowany[i] > 0.05:
         l = int(dane.iloc[i]['kol5'])
         if p != l: #sprawdza, czy cyfra jest różna od poprzedniej zakodowanej
