@@ -42,7 +42,7 @@ plt.show()
 kod=[]
 p = 0
 n = 0
-for i in range(0, len(przefiltrowany)):
+for i in range(len(przefiltrowany)):
     n+=1 # licznik sprawdzający, czy jest przerwa między powtarzającymi się cyframi
     if przefiltrowany[i] > 0.05:
         l = int(dane.iloc[i]['kol5'])
